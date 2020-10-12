@@ -1,17 +1,9 @@
-##################################################################################
-# Data and R scrips for generating data merger, figures and statistics output for
-#
-# "Genome size, oxygen use and ecological strategy across bacteria and archaea"  
-# Nielsen DA , Fierer N , Geoghegan JL, Gillings MR, Gumerov V , Madin JS, 
-# Moore L , Paulsen IT, Reddy TBK , Tetu SG, Westoby M*
-#
-# *Corresponding Author
-#
-##################################################################################
+# Genome size, oxygen use and ecological strategy across bacteria and archaea
 
+Nielsen DA , Fierer N , Geoghegan JL, Gillings MR, Gumerov V , Madin JS, Moore L , Paulsen IT, Reddy TBK , Tetu SG, Westoby M*
+*Corresponding Author
 
-
-## How to run ##
+### How to run
 
 Run the code in the pipeline.R file to process all scripts. 
 This loads the appropriate packages (installs them if not present), 
@@ -21,7 +13,7 @@ Figures are saved to the folder "output/figures" and statistics are
 saved as tab delimited text files in "output/stats". 
 
 
-## Data files ##
+### Data files
 
 [condensed_species_GTDB[NCBI_fill].csv]
 This is the main data file of.. 
@@ -37,4 +29,4 @@ This is the main data file of..
 [ncbi_taxmap.csv]
 
 
-## R scripts ##
+### R scripts
