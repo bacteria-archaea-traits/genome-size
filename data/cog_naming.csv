@@ -1,0 +1,26 @@
+cog,category,name,short_name
+D,Cellular processes and signaling,"Cell cycle control, cell division, chromosome partitioning","Cell cyc. Ctrl, division, chrom. part."
+M,Cellular processes and signaling,Cell wall/membrane/envelope biogenesis,Cell wall/memb/envel. biogen.
+N,Cellular processes and signaling,Cell motility,Cell motility
+O,Cellular processes and signaling,"Post-translational modification, protein turnover, and chaperones","Post-transl mod., Prot. turn. & chap"
+T,Cellular processes and signaling,Signal transduction mechanisms,Sign. trans. mech.
+U,Cellular processes and signaling,"Intracellular trafficking, secretion, and vesicular transport","Intracel. traff., secre & ves. trans."
+V,Cellular processes and signaling,Defense mechanisms,Defense mech.
+W,Cellular processes and signaling,Extracellular structures,Extracel. struct.
+Y,Cellular processes and signaling,Nuclear structure,Nuc. struct.
+Z,Cellular processes and signaling,Cytoskeleton,Cytoskeleton
+A,Information storage and processing,RNA processing and modification,RNA proces. & mod.
+B,Information storage and processing,Chromatin structure and dynamics,Chrom. struct. & dyn.
+J,Information storage and processing,"Translation, ribosomal structure and biogenesis",Transl. riboso. struct. & biog.
+K,Information storage and processing,Transcription,Transcription
+L,Information storage and processing,"Replication, recombination and repair","Replic., recomb. & repair"
+C,Metabolism,Energy production and conversion,Energy prod. & conv.
+E,Metabolism,Amino acid transport and metabolism,Amino acid trans. & meta.
+F,Metabolism,Nucleotide transport and metabolism,Nucleotide trans. & meta.
+G,Metabolism,Carbohydrate transport and metabolism,Carbohydrat trans. & meta.
+H,Metabolism,Coenzyme transport and metabolism,Coenzyme trans. & meta.
+I,Metabolism,Lipid transport and metabolism,Lipid trans. & meta.
+P,Metabolism,Inorganic ion transport and metabolism,Inorg. Ion trans. & meta.
+Q,Metabolism,"Secondary metabolites biosynthesis, transport, and catabolism",Secondary met. biosyn. & catab.
+R,Poorly characterised,General function prediction only,General fun. pred.
+S,Poorly characterised,Function unknown,Function unknown

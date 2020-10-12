@@ -1,0 +1,9 @@
+Description,Coefficient,SE,t value,P
+Intercept,6.5071,0.0336,193.886,0
+Bacteria vs archaea,0.156,0.0384,4.067,4.83963131694883e-05
+Aerobic vs anaerobic,0.2991,0.0735,4.07,4.77844695384211e-05
+Growth temp,-0.0031,5e-04,-5.826,6.08558934357473e-09
+Superkingdom vs oxyagg,-0.1175,0.077,-1.525,0.127229954642278
+Superkingdom vs growth temp,-0.0016,7e-04,-2.25,0.0244925304322551
+Oxyagg vs growth temp,-0.0031,0.0016,-1.913,0.0557619902929631
+Superkingdom vs oxyagg vs growth temp,0.0013,0.0017,0.763,0.445724168736256

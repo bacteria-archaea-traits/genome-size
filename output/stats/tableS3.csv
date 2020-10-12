@@ -1,0 +1,12 @@
+Description,PGLS R_squared,Number of tips (species),Number of nodes
+Genome size (log),NA,NA,NA
+Bacteria > Archaea,NA,NA,NA
+Aerobic > Anaerobic,0.00126070501452454,6482,1389
+growth temperature,0.0322047269687064,6302,1338
+Sporulating > Not,0.0113406450689637,4702,1168
+Motile > Not,0.00639967913744478,4826,1144
+Shape (rod > spheroid),0.00388839205872539,4527,1081
+Gram positive > Negative,0.000202258983604667,7194,1493
+Radial diameter (log),0.007320637143782,3420,948
+Doubling time (log),0.00122201764218625,623,274
+rRNA16S gene copies,0.140238660838023,2758,770

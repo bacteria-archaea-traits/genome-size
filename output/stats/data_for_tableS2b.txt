@@ -1,0 +1,23 @@
+
+Call:
+lm(formula = genome_size ~ superkingdom + oxyagg + growth_tmp, 
+    data = datcorr)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.85395 -0.10069  0.00132  0.10200  0.47351 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   6.6210388  0.0184304 359.246  < 2e-16 ***
+superkingdom  0.0529164  0.0119166   4.441 9.19e-06 ***
+oxyagg        0.1272962  0.0060991  20.871  < 2e-16 ***
+growth_tmp   -0.0049737  0.0002696 -18.448  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1615 on 4420 degrees of freedom
+  (13084 observations deleted due to missingness)
+Multiple R-squared:  0.2738,	Adjusted R-squared:  0.2733 
+F-statistic: 555.4 on 3 and 4420 DF,  p-value: < 2.2e-16
+
