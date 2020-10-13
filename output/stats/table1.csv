@@ -1,11 +1,11 @@
 Description,r2,n,correlation_after_partialling_for_kingdom_metabolism_growth_tmp,PGLS R_squared
-Bacteria > Archaea,0.039,11262,NA,NA
-Aerobic > Anaerobic,0.184,5415,NA,0.00126070501452454
-growth temperature,0.172,6357,NA,0.0322047269687064
-Sporulating > Not,0.078,4726,0.105,0.0113406450689637
-Motile > Not,0.021,4862,0.03,0.00639967913744478
-Shape (rod > spheroid),0.107,4557,0.092,0.00388839205872539
-Gram positive > Negative,0.002,7272,0.003,0.000202258983604667
-Radial diameter (log),0.012,3447,0.022,0.007320637143782
-Doubling time (log),0.009,628,0.002,0.00122201764218625
-rRNA16S gene copies,0.113,2761,0.072,0.140238660838023
+Bacteria > Archaea,0.044,11540,NA,NA
+Aerobic > Anaerobic,0.192,5630,NA,0.00583080528089906
+growth temperature,0.183,6353,NA,0.033564474225656
+Sporulating > Not,0.078,4710,0.107,0.0114770955564447
+Motile > Not,0.019,4936,0.028,0.00658906264990651
+Shape (rod > spheroid),0.08,4608,0.064,0.00393134830103751
+Gram positive > Negative,0.001,7310,0.001,0.000257506000559413
+Radial diameter (log),0.011,3467,0.022,0.00769677904243256
+Doubling time (log),0.012,628,0.004,0.00246229022167703
+rRNA16S gene copies,0.104,2729,0.061,0.140135000315207

@@ -5,19 +5,19 @@ lm(formula = genome_size ~ superkingdom + oxyagg + growth_tmp,
 
 Residuals:
      Min       1Q   Median       3Q      Max 
--0.85395 -0.10069  0.00132  0.10200  0.47351 
+-0.71612 -0.10173  0.00012  0.10052  0.47251 
 
 Coefficients:
                Estimate Std. Error t value Pr(>|t|)    
-(Intercept)   6.6210388  0.0184304 359.246  < 2e-16 ***
-superkingdom  0.0529164  0.0119166   4.441 9.19e-06 ***
-oxyagg        0.1272962  0.0060991  20.871  < 2e-16 ***
-growth_tmp   -0.0049737  0.0002696 -18.448  < 2e-16 ***
+(Intercept)   6.6219544  0.0180645 366.573  < 2e-16 ***
+superkingdom  0.0544923  0.0116824   4.664 3.19e-06 ***
+oxyagg        0.1258760  0.0060072  20.954  < 2e-16 ***
+growth_tmp   -0.0049761  0.0002632 -18.904  < 2e-16 ***
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
 
-Residual standard error: 0.1615 on 4420 degrees of freedom
-  (13084 observations deleted due to missingness)
-Multiple R-squared:  0.2738,	Adjusted R-squared:  0.2733 
-F-statistic: 555.4 on 3 and 4420 DF,  p-value: < 2.2e-16
+Residual standard error: 0.1585 on 4419 degrees of freedom
+  (13450 observations deleted due to missingness)
+Multiple R-squared:  0.2817,	Adjusted R-squared:  0.2812 
+F-statistic: 577.7 on 3 and 4419 DF,  p-value: < 2.2e-16
 

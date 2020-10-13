@@ -1,5 +1,5 @@
 Description,Coefficient,SE,equivalent_percent_difference
-Intercept,6.621,0.0184,NA
-Bacteria vs archaea,0.0529,0.0119,13.0 %
-Aerobic vs anaerobic,0.1273,0.0061,34.1 %
+Intercept,6.622,0.0181,NA
+Bacteria vs archaea,0.0545,0.0117,13.4 %
+Aerobic vs anaerobic,0.1259,0.006,33.6 %
 Growth temp,-0.005,3e-04,11.0 %

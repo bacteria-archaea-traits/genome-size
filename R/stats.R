@@ -300,10 +300,10 @@ write.table(table1, file = sprintf("%s/table1.csv",stats_file_path), sep = ",", 
 report("Done")
 
 
-if(memory.size() > 1000) {
-  report("Freeing memory")
-  gc()
-}
+# if(memory.size() > 1000) {
+#   report("Freeing memory")
+#   gc()
+# }
 
 # Table S1 - Correlations among log10 genome size and ten other traits or catgories
 ###################

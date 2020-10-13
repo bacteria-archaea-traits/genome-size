@@ -5,23 +5,23 @@ lm(formula = genome_size ~ superkingdom * oxyagg * growth_tmp,
 
 Residuals:
      Min       1Q   Median       3Q      Max 
--0.84343 -0.10168  0.00227  0.10112  0.47090 
+-0.71284 -0.10233  0.00131  0.09940  0.46990 
 
 Coefficients:
                                  Estimate Std. Error t value Pr(>|t|)    
-(Intercept)                     6.5070897  0.0335614 193.886  < 2e-16 ***
-superkingdom                    0.1559954  0.0383538   4.067 4.84e-05 ***
-oxyagg                          0.2991391  0.0734941   4.070 4.78e-05 ***
-growth_tmp                     -0.0030934  0.0005310  -5.826 6.09e-09 ***
-superkingdom:oxyagg            -0.1174927  0.0770240  -1.525   0.1272    
-superkingdom:growth_tmp        -0.0015831  0.0007036  -2.250   0.0245 *  
-oxyagg:growth_tmp              -0.0030771  0.0016082  -1.913   0.0558 .  
-superkingdom:oxyagg:growth_tmp  0.0013205  0.0017316   0.763   0.4457    
+(Intercept)                     6.5071019  0.0328238 198.244  < 2e-16 ***
+superkingdom                    0.1588100  0.0374988   4.235 2.33e-05 ***
+oxyagg                          0.2998426  0.0720856   4.160 3.25e-05 ***
+growth_tmp                     -0.0030930  0.0005170  -5.982 2.37e-09 ***
+superkingdom:oxyagg            -0.1195721  0.0755283  -1.583   0.1135    
+superkingdom:growth_tmp        -0.0015944  0.0006847  -2.328   0.0199 *  
+oxyagg:growth_tmp              -0.0030964  0.0015772  -1.963   0.0497 *  
+superkingdom:oxyagg:growth_tmp  0.0013345  0.0016972   0.786   0.4318    
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
 
-Residual standard error: 0.1611 on 4416 degrees of freedom
-  (13084 observations deleted due to missingness)
-Multiple R-squared:  0.2778,	Adjusted R-squared:  0.2767 
-F-statistic: 242.7 on 7 and 4416 DF,  p-value: < 2.2e-16
+Residual standard error: 0.1581 on 4415 degrees of freedom
+  (13450 observations deleted due to missingness)
+Multiple R-squared:  0.2859,	Adjusted R-squared:  0.2848 
+F-statistic: 252.5 on 7 and 4415 DF,  p-value: < 2.2e-16
 

@@ -28,7 +28,7 @@ data_file_path <- "data"
 report("Loading data")
 
 #Main phenotypic data
-df <- read.csv(sprintf("%s/madin_et_al/condensed_species_GTDB[NCBI_fill].csv",data_file_path), as.is=TRUE)
+df <- read.csv(sprintf("%s/madin_et_al/condensed_species_GTDB[NCBI_fill]_19022020.csv", data_file_path), as.is=TRUE)
 df <- df %>% filter(!is.na(superkingdom))
 report("Main data loaded")
 

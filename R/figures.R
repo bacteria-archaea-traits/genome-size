@@ -103,8 +103,8 @@ p1b
 fig1 <- ggarrange(p1a, p1b, ncol = 1, nrow = 2,  heights = c(1.4, 1), labels="AUTO")
 fig1
 
-ggsave(filename = "Fig1.png", plot = fig1, device = "png", path = figures_file_path, units = "cm", width = fig_two_panel_width, height = 18, dpi = 600, limitsize = TRUE) 
-dev.off()
+ggsave(filename = "Fig1.png", plot = fig1, device = "png", path = figures_file_path, units = "cm", width = fig_two_panel_width, height = 18, dpi = 600, limitsize = FALSE) 
+# dev.off()
 
 rm(p1a,p1b)
 
@@ -215,7 +215,7 @@ fig2 <- ggarrange(p2a, p2b, ncol = 1, nrow = 2,  heights = c(1, 1), labels="AUTO
 fig2
 
 ggsave(filename = "Fig2.png", plot = fig2, device = "png", path = figures_file_path, units = "cm", width = fig_two_panel_width, height = fig_two_panel_height, dpi = 600, limitsize = TRUE) 
-dev.off()
+# dev.off()
 
 rm(p2a,p2b,sub)
 
@@ -311,7 +311,7 @@ fig3 <- ggarrange(p3a, p3b, ncol = 1, nrow = 2,  heights = c(1, 1), labels="AUTO
 fig3
 
 ggsave(filename = "Fig3_mean_mist.png", plot = fig3, device = "png", path = figures_file_path, units = "cm", width = fig_two_panel_width, height = 14, dpi = 600, limitsize = TRUE) 
-dev.off()
+# dev.off()
 
 rm(n,centroids)
 rm(list=ls(pattern = "^[fig]*[1-9]+"))

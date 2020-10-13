@@ -182,7 +182,7 @@ figS1 <- ggarrange(p1a,p1b,p1c,p1d, ncol = 2, nrow = 2,  heights = c(1, 1, 1, 1)
 figS1
 
 ggsave(filename = "FigS1.png", plot = figS1, device = "png", path = figures_file_path, units = "cm", width = 18, height = 16, dpi = 600, limitsize = TRUE) 
-dev.off()
+#dev.off()
 
 
 
@@ -296,7 +296,7 @@ figS2 <- ggarrange(p2a,p2b,p2c, ncol = 3, widths = c(1.1, 0.9, 1.45), labels="AU
 figS2
 
 ggsave(filename = "FigS2.png", plot = figS2, device = "png", path = figures_file_path, units = "cm", width = 18, height = 7, dpi = 600, limitsize = TRUE) 
-dev.off()
+#dev.off()
 
 
 
@@ -500,7 +500,7 @@ figS3
 
 
 ggsave(filename = "FigS3.png", plot = figS3, device = "png", path = figures_file_path, units = "cm", width = 18, height = 16, dpi = 600, limitsize = TRUE) 
-dev.off()
+#dev.off()
 
 
 ########
@@ -770,7 +770,7 @@ figS4 <- ggarrange(p4a,p4b,p4c,p4d,p4e,p4f, ncol = 2, nrow = 3, labels="AUTO")
 figS4
 
 ggsave(filename = "FigS4.png", plot = figS4, device = "png", path = figures_file_path, units = "cm", width = 18, height = 18, dpi = 600, limitsize = TRUE) 
-dev.off()
+#dev.off()
 
 
 
@@ -903,7 +903,7 @@ figS5 <- ggarrange(p5a,p5b,p5c, ncol = 1, nrow = 3, labels="AUTO")
 figS5
 
 ggsave(filename = "FigS5.png", plot = figS5, device = "png", path = figures_file_path, units = "cm", width = 9, height = 18, dpi = 600, limitsize = TRUE) 
-dev.off()
+#dev.off()
 
 
 
@@ -1243,7 +1243,7 @@ figS6 <- ggarrange(p6a,p6b,p6c,p6d,p6e,p6f,p6g,p6h, ncol = 2, nrow = 4, labels="
 figS6
 
 ggsave(filename = "FigS6.png", plot = figS6, device = "png", path = figures_file_path, units = "cm", width = 18, height = 24, dpi = 600, limitsize = TRUE) 
-dev.off()
+#dev.off()
 
 
 
@@ -1336,7 +1336,7 @@ figS7 <- ggarrange(p7a,p7b, ncol = 2, nrow = 1, labels="AUTO")
 figS7
 
 ggsave(filename = "FigS7.png", plot = figS7, device = "png", path = figures_file_path, units = "cm", width = 18, height = 6, dpi = 600, limitsize = TRUE) 
-dev.off()
+#dev.off()
 
 
 # Fig S8 [genome size Vs COGs AND MIST] MIXED
@@ -1499,7 +1499,7 @@ figS8 <- ggarrange(p8a,p8b,p8c,p8d, ncol = 2, nrow = 2, heights = c(1,1,1.2,1.2)
 figS8
 
 ggsave(filename = "FigS8.png", plot = figS8, device = "png", path = figures_file_path, units = "cm", width = 18, height = 12, dpi = 600, limitsize = TRUE) 
-dev.off()
+#dev.off()
 
 
 
@@ -1521,7 +1521,7 @@ p9
 
 ggsave(filename = "FigS9.png", plot = p9, device = "png", path = figures_file_path, units = "cm",
        width = fig_two_panel_width, height = fig_one_panel_height, dpi = 600, limitsize = TRUE)
-dev.off()
+#dev.off()
 
 #GSsupp4cum.png is a cumulative freq dist of coefficients of variation (as %) for genome size, using only species with 10 or more records. Need to subset and calculate the CV first, as in 
 # pcum1 <- ggplot(gscv, aes(genome_size.CV)) + stat_ecdf(geom = "step") +
@@ -1532,7 +1532,7 @@ dev.off()
 # ggsave(filename = "figs/GSsupp4cum.png", plot=pcum1,
 #        width = 12, height = 8, units = "cm", dpi = 300, 
 #        bg = "white")
-# dev.off()
+# #dev.off()
 
 rm(n,centroids)
 rm(list=ls(pattern = "^[fig]*[1-9]+"))
